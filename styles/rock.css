@@ -1,0 +1,96 @@
+.main {
+    background: url('../images/grey1.jpg');
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.menu {
+    font-size: 22px;
+}
+
+.link {
+    color: black;
+}
+
+.table {
+    border: 3px ridge brown;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    border-bottom: 3px ridge brown;
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+    margin: 0;
+}
+
+.subtitle {
+    border-bottom: 3px ridge brown;
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+    margin: 0;
+}
+
+.image-block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-text {
+    width: 400px;
+}
+
+.image {
+    width: 100%;
+}
+
+.link-text {
+    color: white;
+    width: 400px;
+    font-size: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .image {
+        width: 320px;
+    }
+
+    .link-text {
+        width: 320px;
+        
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .image {
+        width: 240px;
+    }
+    
+    .link-text {
+        width: 240px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .image-block {
+    flex-wrap: wrap;
+    }
+    
+    .image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+    }
+
+    .link-text {
+        width: 310px;
+    }
+}
+
