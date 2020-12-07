@@ -10,4 +10,4 @@
 1. изменить и добавить контент.
 
 ## **Ссылка на проект в Интернете**
-https://github.com/RemiOrhi/musiclibrary
+https://remiorhi.github.io/musiclibrary/
